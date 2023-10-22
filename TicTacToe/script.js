@@ -3,7 +3,8 @@ let playerOneWins=0;
 let playerTwoWins=0;
 let draw=0;
 let winner;
-
+let back=document.getElementById("back");
+    back.style.display="inline";
 let board = [
   ["", "", ""],
   ["", "", ""],

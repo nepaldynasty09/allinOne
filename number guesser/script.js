@@ -7,6 +7,8 @@ let resetBtn=document.getElementById("reset-btn");
 let hints=document.getElementById("aboutgame");
 let hintbttn=document.getElementById("hint");
 let hidebttn=document.getElementById("hide");
+let back=document.getElementById("back");
+    back.style.display="inline";
 setBoard();
 function setBoard(){
 

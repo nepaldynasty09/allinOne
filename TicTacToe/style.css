@@ -2,7 +2,9 @@ body {
     background-color: #C8D9BF;
 }
 
-
+#back{
+    display:none;
+  }
 table {
     position: absolute;
     top: 50%;

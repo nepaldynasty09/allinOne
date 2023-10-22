@@ -1,0 +1,17 @@
+#game-container {
+    display: none;
+}
+#reset-btn{
+    display:none;
+   
+}
+#aboutgame{
+    display:none;
+}
+#hide{
+    display:none;
+}
+.container{
+    text-align: center;
+    margin-top:15%;
+}

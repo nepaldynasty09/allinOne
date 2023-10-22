@@ -2,7 +2,8 @@
 let userWins = 0;
 let computerWins = 0;
 let draws = 0;
-
+let back=document.getElementById("back");
+    back.style.display="inline";
 // function playSound(choice) {
 //     const audio = new Audio(`${choice}.mp3`);
 //     audio.play();

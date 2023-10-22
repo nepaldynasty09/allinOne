@@ -5,7 +5,9 @@ button {
     transition: background-color 0.3s ease, transform 0.2s ease;
     border: none; /* Remove button borders */
 }
-
+#back{
+    display:none;
+  }
 button:hover {
     background-color: blue;
     transform: scale(1.1);

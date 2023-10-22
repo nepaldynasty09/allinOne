@@ -1,0 +1,49 @@
+#btn1{
+    background-image: url(images/Number-guesser.jpeg);
+}
+#btn2{
+    background-image: url(images/RockPaperScissors.jpeg);
+}
+#btn3{
+    background-image: url(images/TicTacToe.jpeg);
+    background-attachment: fixed;
+            background-position: center;
+    background-repeat: no-repeat;        
+}
+#btn1::after {
+    content: "Click to play";
+    display: none;
+}
+#btn1:hover::after {
+    display: inline;
+  }
+  #btn1:hover .original-text {
+    display: none;
+  }
+button{
+    padding:40px;
+}
+#btn2::after {
+    content: "Click to play";
+    display: none;
+}
+#btn2:hover::after {
+    display: inline;
+  }
+  #btn2:hover .og-text {
+    display: none;
+  }
+  button{
+    background: white;
+    padding:40px;
+}
+#btn3::after {
+    content: "Click to play";
+    display: none;
+}
+#btn3:hover::after {
+    display: inline;
+  }
+  #btn3:hover .o-text {
+    display: none;
+  }
